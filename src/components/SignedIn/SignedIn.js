@@ -20,6 +20,7 @@ const SignedIn = () => {
           <Route path=":project_id" element={<Board />} />
           <Route path="*" element={<Dashboard />} />
         </Route>
+        <Route path="/bulletin-board/" element={<Dashboard />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </MotionDiv>
