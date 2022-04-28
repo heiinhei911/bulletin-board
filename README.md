@@ -1,6 +1,6 @@
 # Bulletin Board. A Scrum-Kanban Board.
 
-A project tracking app that combines both Scrum and Kanban methodology.
+A project tracking app that combines both Scrum and Kanban methodologies.
 
 \(This app is a long-term project and is constantly improving with new features constantly being implemented. Please check back regularly for updates.\)
 
@@ -47,7 +47,7 @@ Throughout the app:
 
 ## Main Libraries/Frameworks/Services Used
 
-Firebase, React, React Router, React Bootstrap, React Beautiful DND, React Icons, SCSS, and Framer Motion.
+Firebase, React, React Router, React Bootstrap, React Beautiful DND, React Icons, SASS, and Framer Motion.
 
 ## Credits
 

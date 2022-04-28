@@ -45,7 +45,7 @@ const CopyMove = ({
         projectIndex
       );
       populateDetails({
-        cardName: columns[taskIndex].content.title,
+        cardName: columns[0].content.title,
         from: boards[projectIndex][columnIndex].display,
         to: destination,
       });
