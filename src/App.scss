@@ -1,0 +1,64 @@
+@use "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;600&display=swap");
+
+.App {
+  font-family: "Roboto", sans-serif !important;
+}
+
+body {
+  background-color: #f5f5f5 !important;
+}
+
+:root {
+  .btn-primary {
+    background-color: green;
+    border-color: green;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:active {
+    background-color: darkgreen;
+    border-color: darkgreen;
+  }
+
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary::before,
+  .btn-primary::after {
+    background-color: green;
+    border-color: green;
+  }
+}
+
+.mr-auto {
+  margin-right: auto !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.font-italic {
+  font-style: italic !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pin {
+  transform: translateY(-1rem);
+}
+
+.hover {
+  &:hover {
+    background-color: #d3d3d3;
+  }
+  transition: background-color 0.25s;
+}
+
+@media (min-width: 768px) {
+  .App {
+    min-width: max-content !important;
+  }
+}

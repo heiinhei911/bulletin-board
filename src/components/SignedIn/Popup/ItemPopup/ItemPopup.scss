@@ -1,0 +1,29 @@
+.modal-90w {
+  min-width: 90% !important;
+}
+
+.description-input {
+  resize: vertical;
+}
+
+.comment-input {
+  resize: none;
+}
+
+.description-input::placeholder,
+.comment-input::placeholder {
+  font-size: 0.9rem;
+}
+
+.priority-tag {
+  font-size: 0.8rem;
+  padding: 0.1rem 0;
+  width: fit-content;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    min-width: min(800px, 90%) !important;
+  }
+}

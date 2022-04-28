@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { AuthProvider } from "./contexts/AuthContext";
+import { BrowserRouter as Router } from "react-router-dom";
+import { useWindowHeight } from "./helpers/window-dimensions";
+import AnimatedRoutes from "./components/AnimatedRoutes";
+import MotionDiv from "./helpers/animated-motion-div";
+import "./App.scss";
 
-function App() {
+const App = () => {
+  const screenHeight = useWindowHeight();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MotionDiv
+      className="App min-vh-100 min-vw-100 d-flex flex-column justify-content-start align-items-center"
+      style={{ minHeight: screenHeight }}
+    >
+      <AuthProvider>
+        <Router>
+          <AnimatedRoutes />
+        </Router>
+      </AuthProvider>
+    </MotionDiv>
   );
-}
+};
 
 export default App;

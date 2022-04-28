@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Bulletin Board. A Scrum-Kanban Board.
+
+A project tracking app that combines both Scrum and Kanban methodology.
+
+\(This app is a long-term project and is constantly improving with new features constantly being implemented. Please check back regularly for updates.\)
+
+## Demo
+
+Demo: [https://heiinhei911.github.io/bulletin-board](https://heiinhei911.github.io/bulletin-board) and pick "Demo".
+
+Note: Any changes that you make under the demo account will not be saved to the database.
+
+## How to Use
+
+There isn't a standard way to use this app. Log onto the website, create an account, and start experimenting with it! Feel like to utilize it however you see fit your workflow the best \(e.g., a bug tracker, sprint planner, to-do list, you name it\). One good way to start is by following the "To-do", "In Progress", and "Done" workflow and building from there.
+
+## Main Features
+
+In this app, you can:
+
+- Add/remove projects
+
+In a project:
+
+- Add/remove columns
+- Add a new card \(task\)
+- Rearrange any columns and cards (within and across columns)
+- Rename a project/column
+
+In a card:
+
+- Rename a card
+- Create/edit a description for a card
+- Create a comment and see other people's comments
+- View who created and who has been assigned to a card
+- View/change the due date of the card \(coming soon\)
+- Add/remove assignees
+- Change priority levels
+- Copy/move a card
+- Delete a card
+
+Throughout the app:
+
+- Real-time updates \(any changes that are made from other users will be automatically reflected on your end without the need of refreshing the page\)
+
+## Main Libraries/Frameworks/Services Used
+
+Firebase, React, React Router, React Bootstrap, React Beautiful DND, React Icons, SCSS, and Framer Motion.
+
+## Credits
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by Steve Sam

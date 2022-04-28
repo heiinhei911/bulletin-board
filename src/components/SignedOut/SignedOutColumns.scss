@@ -1,0 +1,46 @@
+.column-bg-text {
+  opacity: 20%;
+  user-select: none;
+}
+
+.column-overlay {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.text-shadow {
+  text-shadow: 2px 0 3px lightgray;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  @each $i in 0, 1, 2 {
+    $initial_animation_value: random(random(5)) + 20;
+    $animation_progress: (
+      0%: $initial_animation_value,
+      25%: random(random(30)) + 25,
+      50%: random(random(10)) + 25,
+      75%: random(random(50)) + 25,
+      100%: $initial_animation_value,
+    );
+    .sign-in-options-column-#{$i} {
+      animation: column-animation-#{$i} random(10) + 10 + s infinite;
+      animation-delay: random(5) + s;
+      transition: min-height random(2) + s;
+    }
+
+    @keyframes column-animation-#{$i} {
+      @each $percent, $animation_value in $animation_progress {
+        #{$percent} {
+          min-height: $animation_value + vh;
+        }
+      }
+    }
+  }
+}
