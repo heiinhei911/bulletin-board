@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.37c8d80a.css",
-    "main.js": "/static/js/main.316cb245.js",
-    "static/js/787.77b70aaa.chunk.js": "/static/js/787.77b70aaa.chunk.js",
-    "static/media/scrum_board.svg": "/static/media/scrum_board.37a94a216981745ea8e77fea17c046af.svg",
-    "index.html": "/index.html",
-    "main.37c8d80a.css.map": "/static/css/main.37c8d80a.css.map",
-    "main.316cb245.js.map": "/static/js/main.316cb245.js.map",
-    "787.77b70aaa.chunk.js.map": "/static/js/787.77b70aaa.chunk.js.map"
+    "main.css": "/bulletin-board/static/css/main.b62db61b.css",
+    "main.js": "/bulletin-board/static/js/main.b59e0e3f.js",
+    "static/js/787.77b70aaa.chunk.js": "/bulletin-board/static/js/787.77b70aaa.chunk.js",
+    "static/media/scrum_board.svg": "/bulletin-board/static/media/scrum_board.37a94a216981745ea8e77fea17c046af.svg",
+    "index.html": "/bulletin-board/index.html",
+    "main.b62db61b.css.map": "/bulletin-board/static/css/main.b62db61b.css.map",
+    "main.b59e0e3f.js.map": "/bulletin-board/static/js/main.b59e0e3f.js.map",
+    "787.77b70aaa.chunk.js.map": "/bulletin-board/static/js/787.77b70aaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37c8d80a.css",
-    "static/js/main.316cb245.js"
+    "static/css/main.b62db61b.css",
+    "static/js/main.b59e0e3f.js"
   ]
 }
