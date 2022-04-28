@@ -4,9 +4,11 @@ A project tracking app that combines both Scrum and Kanban methodology.
 
 \(This app is a long-term project and is constantly improving with new features constantly being implemented. Please check back regularly for updates.\)
 
+![Demo GIF](./assets/gifs/../../src/assets/gifs/showcase.gif)
+
 ## Demo
 
-Demo: [https://heiinhei911.github.io/bulletin-board](https://heiinhei911.github.io/bulletin-board) and pick "Demo".
+Demo: [https://heiinhei911.github.io/bulletin-board](https://heiinhei911.github.io/bulletin-board) and click "Demo".
 
 Note: Any changes that you make under the demo account will not be saved to the database.
 
