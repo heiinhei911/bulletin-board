@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bulletin-board/static/css/main.f3602f63.css",
-    "main.js": "/bulletin-board/static/js/main.c056de7e.js",
+    "main.css": "/bulletin-board/static/css/main.fa55d3a7.css",
+    "main.js": "/bulletin-board/static/js/main.10abc2c7.js",
     "static/js/787.77b70aaa.chunk.js": "/bulletin-board/static/js/787.77b70aaa.chunk.js",
     "static/media/scrum_board.svg": "/bulletin-board/static/media/scrum_board.37a94a216981745ea8e77fea17c046af.svg",
     "index.html": "/bulletin-board/index.html",
-    "main.f3602f63.css.map": "/bulletin-board/static/css/main.f3602f63.css.map",
-    "main.c056de7e.js.map": "/bulletin-board/static/js/main.c056de7e.js.map",
+    "main.fa55d3a7.css.map": "/bulletin-board/static/css/main.fa55d3a7.css.map",
+    "main.10abc2c7.js.map": "/bulletin-board/static/js/main.10abc2c7.js.map",
     "787.77b70aaa.chunk.js.map": "/bulletin-board/static/js/787.77b70aaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3602f63.css",
-    "static/js/main.c056de7e.js"
+    "static/css/main.fa55d3a7.css",
+    "static/js/main.10abc2c7.js"
   ]
 }
