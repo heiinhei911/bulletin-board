@@ -1,6 +1,6 @@
 {
-  "name": "Pin",
-  "short_name": "Pin",
+  "name": "Bulletin Board",
+  "short_name": "Bulletin",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
