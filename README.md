@@ -12,7 +12,7 @@ Note: Any changes that you make under the demo account will not be saved to the 
 
 ## How to Use
 
-There isn't a standard way to use this app. Log onto the website, create an account, and start experimenting with it! Feel like to utilize it however you see fit your workflow the best \(e.g., a bug tracker, sprint planner, to-do list, you name it\). One good way to start is by following the "To-do", "In Progress", and "Done" workflow and building from there.
+There isn't a standard way to use this app. Log onto the website, create an account, and start experimenting with it! Feel free to utilize it however you see fit your workflow the best \(e.g., a bug tracker, sprint planner, to-do list, you name it\). One good way to start is by following the "To-do", "In Progress", and "Done" workflow and building from there.
 
 ## Main Features
 
