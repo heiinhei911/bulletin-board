@@ -86,10 +86,12 @@ const Sidebar = ({ creator, assignedTo, columnId, _id, children }) => {
                   text: "Priority",
                 })}
                 {/* {cloneElement(children[1], {
-                type: "duedate",
-                icon: <MdOutlineDateRange size="1.2rem" className="mr-half" />,
-                text: "Due Date",
-              })} */}
+                  type: "duedate",
+                  icon: (
+                    <MdOutlineDateRange size="1.2rem" className="mr-half" />
+                  ),
+                  text: "Due Date",
+                })} */}
               </Stack>
             </div>
           </Col>

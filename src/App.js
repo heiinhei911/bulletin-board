@@ -1,5 +1,5 @@
 import { AuthProvider } from "./contexts/AuthContext";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import { useWindowHeight } from "./helpers/window-dimensions";
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import MotionDiv from "./helpers/animated-motion-div";
